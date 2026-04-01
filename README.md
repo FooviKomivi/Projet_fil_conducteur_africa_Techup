@@ -1,10 +1,10 @@
 <<<<<<< HEAD
-# 🚦 Prédiction du Trafic Urbain — Smart City
+#  Prédiction du Trafic Urbain — Smart City
 ## Guide de démarrage complet
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 traffic_project/
@@ -21,17 +21,17 @@ traffic_project/
 
 ---
 
-## 🏆 Résultats des modèles
+##  Résultats des modèles
 
 | Modèle             | MAE     | RMSE    | R²     |
 |--------------------|---------|---------|--------|
 | Régression Linéaire| 477 v/h | 672 v/h | 0.886  |
 | Gradient Boosting  | 211 v/h | 314 v/h | 0.975  |
-| **Random Forest ⭐**| **129 v/h** | **224 v/h** | **0.987** |
+| **Random Forest **| **129 v/h** | **224 v/h** | **0.987** |
 
 ---
 
-## ▶️ Installation et lancement
+##  Installation et lancement
 
 ### 1. Installer les dépendances
 ```bash
@@ -51,7 +51,7 @@ L'application s'ouvre sur `http://localhost:8501`
 
 ---
 
-## 📋 Contenu du Notebook (10 sections)
+##  Contenu du Notebook (10 sections)
 
 1. Importation des bibliothèques
 2. Chargement et exploration du dataset
@@ -66,15 +66,15 @@ L'application s'ouvre sur `http://localhost:8501`
 
 ---
 
-## 🌐 Interface Streamlit (5 onglets)
+## Interface Streamlit (5 onglets)
 
 | Onglet | Contenu |
 |--------|---------|
-| 🔮 Prédiction | Résultat temps réel + prévision 24h |
-| 📊 Exploration | Stats, graphiques trafic par heure/jour/météo |
-| 📈 Performance | Comparaison des 3 modèles |
-| 🧠 Importance | Feature importance graphique |
-| 📋 Rapport | Rapport synthétique intégré |
+| Prédiction | Résultat temps réel + prévision 24h |
+| Exploration | Stats, graphiques trafic par heure/jour/météo |
+|  Performance | Comparaison des 3 modèles |
+| Importance | Feature importance graphique |
+|  Rapport | Rapport synthétique intégré |
 =======
 # Projet_fil_conducteur_africa_Techup
 Ce projet est un projet de fin d’apprentissage
