@@ -13,8 +13,8 @@ from sklearn.preprocessing import LabelEncoder
 # CONFIG PAGE
 # ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="🚦 Prédiction du Trafic Urbain",
-    page_icon="🚦",
+    page_title=" Prédiction du Trafic Urbain",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -99,7 +99,7 @@ with st.sidebar:
     month       = st.selectbox("Mois", ["Janvier","Février","Mars","Avril","Mai","Juin",
                                          "Juillet","Août","Septembre","Octobre","Novembre","Décembre"])
     year        = st.selectbox("Année", [2022,2023,2024,2025,2026], index=3)
-    is_holiday  = st.checkbox("Jour férié 🎉")
+    is_holiday  = st.checkbox("Jour férié ")
 
     st.markdown("---")
     st.markdown('<p class="sidebar-section"> Météo</p>', unsafe_allow_html=True)
@@ -145,11 +145,11 @@ def traffic_level(vol):
 # ──────────────────────────────────────────────
 # PAGE PRINCIPALE
 # ──────────────────────────────────────────────
-st.markdown('<h1 class="main-title">🚦 Prédiction du Trafic Urbain</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title"> Prédiction du Trafic Urbain</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Smart City · Machine Learning · Interstate 94, Minnesota, USA</p>',
             unsafe_allow_html=True)
 
-tabs = st.tabs(["🔮 Prédiction", "Exploration", "Performance des Modèles", " Importance Variables", " Rapport"])
+tabs = st.tabs([" Prédiction", "Exploration", "Performance des Modèles", " Importance Variables", " Rapport"])
 
 
 # ──── TAB 1 : PRÉDICTION ────
