@@ -151,5 +151,5 @@ en continu alimentant les features de type rolling.
 
 ---
 
-*Rapport généré dans le cadre du projet Data Scientist — Smart City*
+*c'est le rapport dans le cadre du projet Data Scientist — Smart City*
 *Modèle : Random Forest Regressor | Dataset : UCI Metro Interstate Traffic Volume*
