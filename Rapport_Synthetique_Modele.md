@@ -1,4 +1,4 @@
-# 📋 Rapport Synthétique du Modèle
+#  Rapport Synthétique du Modèle
 ## Prédiction du Trafic Urbain — Smart City
 ### Interstate 94, Minnesota, USA
 
@@ -78,7 +78,7 @@ Trois modèles ont été comparés, du plus simple au plus complexe :
 |---|---|---|---|
 | Régression Linéaire | 477 | 672 | 0.886 |
 | Gradient Boosting | 211 | 314 | 0.975 |
-| **Random Forest ⭐** | **129** | **224** | **0.987** |
+| **Random Forest ** | **129** | **224** | **0.987** |
 
 *MAE = Erreur Absolue Moyenne | RMSE = Erreur Quadratique Moyenne | R² = Coefficient de détermination*
 
